@@ -1,0 +1,49 @@
+a{
+  text-decoration: none;
+}
+
+.active{
+  color: white;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.507);
+}
+
+.inactive{
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.navStyle{
+  background-color: #3cff01;
+}
+
+.bannerHome {
+  height: 200px;
+  background-color: rgba(253, 136, 2, 0.74);
+  background-image: url("./assets/img/Pizza Fondo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgCarrito{
+  height: 40px;
+  object-fit: cover;
+}
+
+.logoCarrito{
+  fill: white;
+}
+
+.hover{
+  transition: 0.3s ease-in;
+}
+
+.hover:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
